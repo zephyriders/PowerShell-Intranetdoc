@@ -1,6 +1,6 @@
 ﻿
 $Entite = $Racine
-$RepertorieaTraiter = "\\srvfic1\Intranet\"+$Entite
+$RepertorieaTraiter = "\\nomduserveur\nomdurepertoire\"+$Entite
 
 $varCheminRepertoireScript = [System.IO.Path]::GetDirectoryName($MyInvocation.MyCommand.Definition)
 $currentScriptName = $MyInvocation.MyCommand.Name #Récupération du nom du script en cours
