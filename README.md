@@ -1,6 +1,9 @@
 # PowerShell-Intranetdoc
 Scan intranet documentaire
 
+Placer les trois scripts dans un repertoire c:/temp/script   par exemple
+prérequis avoir les droits d'accès en lecture  sur tous les repertoires qui vont être scannés
+
 lancer start process qui va permetre de scanner le repertoire en paramètre
   ce process va appeller batchfile.ps1 qui va pour chaque repertoire racine créé un répertoire dans lequell il va inscrire dans un fichier le résultat du parse des fichier et repertoire de chaque repertoire racine.
 
